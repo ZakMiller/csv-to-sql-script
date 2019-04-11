@@ -1,5 +1,5 @@
 {
-  "name": "create-postgres-migration",
+  "name": "csv-to-sql-script",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZakMiller/create-postgres-migration.git"
+    "url": "git+https://github.com/ZakMiller/csv-to-sql-script.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ZakMiller/create-postgres-migration/issues"
+    "url": "https://github.com/ZakMiller/csv-to-sql-script/issues"
   },
-  "homepage": "https://github.com/ZakMiller/create-postgres-migration#readme",
-  "dependencies": {
-    "types-from-csv": "^2.0.1"
-  }
+  "homepage": "https://github.com/ZakMiller/csv-to-sql-script#readme"
 }

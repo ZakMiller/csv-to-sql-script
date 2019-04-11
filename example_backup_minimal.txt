@@ -1,9 +1,0 @@
-CREATE TABLE account (
-    username character varying(50),
-    isgreat boolean,
-    stuffcount integer,
-    created_on timestamp without time zone
-);
-
-INSERT INTO account (username, isgreat, stuffcount, created_on)
-VALUES ('zak', false, 5, NOW());
