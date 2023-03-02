@@ -36,7 +36,7 @@ function getSafeStringValue (str) {
 
 function createTable(writeStream, tableName, headers) {
 
-    const start = `CREATE TABLE ${tableName} (\n`;
+    const start = `CREATE TABLE IF NOT EXISTS ${tableName} (\n`;
     writeStream.write(start);
     headers.forEach((header, index) => {
         const name = getSQLColumnName(header);
